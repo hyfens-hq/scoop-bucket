@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "description": "Open-source Flutter live-update infrastructure CLI",
+  "homepage": "https://hyfens.com",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/hyfens-hq/hyfens/releases/download/v0.1.0/hyfens-0.1.0-windows-x64.zip",
+      "hash": "557ad4e720ed8bbceb26c051214f6cb5728ef66200333c800068857f97c07f06",
+      "extract_dir": "hyfens-0.1"
+    },
+    "arm64": {
+      "url": "https://github.com/hyfens-hq/hyfens/releases/download/v0.1.0/hyfens-0.1.0-windows-arm64.zip",
+      "hash": "3b1c303199daf40c5f8a2c10c9dc93820434497f3110bc4e213c96f3a53f45a9",
+      "extract_dir": "hyfens-0.1"
+    }
+  },
+  "bin": [
+    [
+      "bin/hyfens.exe",
+      "hyfens"
+    ],
+    [
+      "bin/tool.exe",
+      "tool"
+    ]
+  ],
+  "notes": [
+    "The tool command is deprecated; use hyfens."
+  ]
+}
