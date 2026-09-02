@@ -1,18 +1,18 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open-source Flutter live-update infrastructure CLI",
   "homepage": "https://hyfens.com",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/hyfens-hq/hyfens/releases/download/v0.1.0/hyfens-0.1.0-windows-x64.zip",
-      "hash": "557ad4e720ed8bbceb26c051214f6cb5728ef66200333c800068857f97c07f06",
-      "extract_dir": "hyfens-0.1"
+      "url": "https://github.com/hyfens-hq/hyfens/releases/download/v0.1.1/hyfens-0.1.1-windows-x64.zip",
+      "hash": "9744cac01d730ffd0bc61f0e1ac5cb562a62ae7513ae5c7601afae8c00c9a8ba",
+      "extract_dir": "hyfens-0.1.1-windows-x64"
     },
     "arm64": {
-      "url": "https://github.com/hyfens-hq/hyfens/releases/download/v0.1.0/hyfens-0.1.0-windows-arm64.zip",
-      "hash": "3b1c303199daf40c5f8a2c10c9dc93820434497f3110bc4e213c96f3a53f45a9",
-      "extract_dir": "hyfens-0.1"
+      "url": "https://github.com/hyfens-hq/hyfens/releases/download/v0.1.1/hyfens-0.1.1-windows-arm64.zip",
+      "hash": "5d4563fe6bb790e3bb3e54e868b19c32c72c48f280630047f8274b9ae8d186c8",
+      "extract_dir": "hyfens-0.1.1-windows-arm64"
     }
   },
   "bin": [
